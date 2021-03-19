@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/message_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ffffee"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="请先输入cookie和xtttoken保存成功后再重新启动抖音即可生效"
+        android:textColor="#ff0000" />
+
+    <EditText
+        android:id="@+id/ed_cookie"
+        android:background="#ffffee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:hint="请输入cookie"
+        android:textColor="#ff0000" />
+
+    <EditText
+        android:id="@+id/ed_xtt_token"
+        android:background="#ffffee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:hint="请输入xtt_token"
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:id="@+id/save_btn"
+        android:background="#ffffee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="保存设置"
+        android:textColor="#ff0000" />
+
+    <CheckBox
+        android:text="是否弹出提示"
+        android:checked="false"
+        android:id="@+id/ck_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
