@@ -22,6 +22,19 @@
 2. 极验滑块
 3.
 
+# AndroidGeetestCrack
+Android端的Geetest验证码通用破解方案
+
+## 描述 两个字
+
+通杀 
+
+测试地址: https://www.geetest.com/demo/
+
+效果展示
+
+## 
+
 ## 原理分析以及编写过程
 
 [小小滑块可笑可笑-安卓滑块验证码通杀方案研究](https://www.huruwo.top/?s=%E5%B0%8F%E5%B0%8F%E6%BB%91%E5%9D%97)
